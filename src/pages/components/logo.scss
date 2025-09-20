@@ -1,0 +1,18 @@
+.logo-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .logo-container_logo_txt {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    .logo {
+      width: 100px;
+      height: 100px;
+    }
+    .logo-text {
+      height: 70px;
+    }
+   }
+ }
+
