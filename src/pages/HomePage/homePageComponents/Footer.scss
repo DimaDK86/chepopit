@@ -1,9 +1,25 @@
 .footer {
+  display: flex;
+  padding: 20px 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  .empty {
+
+  }
+  .est {
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'MontserratBold', sans-serif;
+  }
   .social {
     display: flex;
     gap: 20px;
     .social-icon {
-      width: 30px;
+      width: 50px;
     }
   }
 }

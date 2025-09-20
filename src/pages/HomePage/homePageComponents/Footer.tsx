@@ -6,15 +6,15 @@ import telegram from "../../../assets/tg.png";
 import phone from "../../../assets/phone.png";
 
 const Footer = () => {
-    // Замените номера телефонов на актуальные
     const phoneNumber = '+79013544854';
     const whatsappNumber = '+79013544854';
-    const telegramUsername = '@СhePopit';
+    const telegramUsername = 'ChePopit';
 
     return (
         <footer className='footer'>
+            <div className="empty"></div>
             <div className='est'>
-                est. 2021 y
+                est. 2021y
             </div>
             <div className="social">
                 {/* Телефон */}

@@ -1,13 +1,14 @@
 .nav {
   .nav-items {
     padding: 0;
+    margin: 16px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     max-width: 600px;
     min-width: 330px;
     gap: 30px;
-    //min-width: 400px;
+    font-size: 20px;
     .nav-item {
 
 
