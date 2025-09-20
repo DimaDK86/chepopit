@@ -1,7 +1,5 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom'
-// import logo from './logo.svg';
-
 import HomePage from "./pages/HomePage/HomePage";
 import './App.css';
 import About from "./pages/About/About";
