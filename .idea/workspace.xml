@@ -5,33 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bddf713-add1-4f42-b015-9ad2a868f560" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/whatsapp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/About/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Assortment/Assortment.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/HonePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/homePageComponents/Footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/homePageComponents/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/homePageComponents/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/homePageComponents/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/components/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/components/LogoShop.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/components/LogoShop.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/components/Navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/components/Navigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/components/logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/chps/src/assets",
+    "last_opened_file_path": "C:/Users/user/Desktop/chps/public",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -85,6 +61,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\chps\public" />
       <recent name="C:\Users\user\Desktop\chps\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -123,7 +100,7 @@
       <updated>1758273383191</updated>
       <workItem from="1758273384246" duration="6524000" />
       <workItem from="1758289592876" duration="10483000" />
-      <workItem from="1758372148994" duration="3544000" />
+      <workItem from="1758372148994" duration="4401000" />
     </task>
     <servers />
   </component>
