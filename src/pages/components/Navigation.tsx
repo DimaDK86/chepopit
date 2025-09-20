@@ -1,15 +1,35 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navigation.scss'
+import {Link, useLocation} from 'react-router-dom';
 
 const Navigation = () => {
+    const location = useLocation();
+
     return (
-        <nav className='nav'>
-            <ul className='nav-items'>
-                <Link to="/about">О НАС</Link>
-                <Link to="/assortment">АССОРТИМЕНТ</Link>
-                <Link to="/contacts">КОНТАКТЫ</Link>
-            </ul>
+        <nav>
+            <Link
+                to="/"
+                className={location.pathname === '/' ? 'active' : ''}
+            >
+                Главная
+            </Link>
+            <Link
+                to="/about"
+                className={location.pathname === '/about' ? 'active' : ''}
+            >
+                О нас
+            </Link>
+            <Link
+                to="/contacts"
+                className={location.pathname === '/contacts' ? 'active' : ''}
+            >
+                Контакты
+            </Link>
+            <Link
+                to="/assortment"
+                className={location.pathname === '/assortment' ? 'active' : ''}
+            >
+                Ассортимент
+            </Link>
         </nav>
     );
 };
