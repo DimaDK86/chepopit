@@ -1,0 +1,12 @@
+.brands-items {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  .brands-item {
+    img {
+      width: 200px;
+    }
+  }
+}

@@ -5,24 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bddf713-add1-4f42-b015-9ad2a868f560" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/kvm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/About/About.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/4brewers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/alaska.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/atmosphere.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/brewlok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/gletcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/jaws.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/planb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/saldens.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/sergacore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/stamm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/tradichii.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/whitestone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/zagovor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Assortment/Assortment.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Brands/Brands.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Brands/Brands.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/About.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Assortment/Assortment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Assortment/Assortment.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/homePageComponents/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/homePageComponents/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/homePageComponents/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/homePageComponents/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/homePageComponents/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/homePageComponents/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/components/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/components/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/components/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/components/Navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/components/Navigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <updated>1758273383191</updated>
       <workItem from="1758273384246" duration="6524000" />
       <workItem from="1758289592876" duration="10483000" />
-      <workItem from="1758372148994" duration="19001000" />
+      <workItem from="1758372148994" duration="21688000" />
     </task>
     <servers />
   </component>
