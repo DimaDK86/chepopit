@@ -1,17 +1,17 @@
 import React from 'react';
-import { useGetFirstCatalogQuery } from '../../api/catalogApi';
+import { useGetSecondCatalogQuery } from '../../api/catalogApi';
 import Arrow from '../../assets/arrow.png'
-import './CategorySection.scss'
+import './CategorySection.scss' // можно использовать те же стили
 
-interface CategorySectionProps {
+interface CategorySection2Props {
   categoryId: number;
   isExpanded: boolean;
   onToggle: () => void;
 }
 
-const CategorySection = ({ categoryId, isExpanded, onToggle }: CategorySectionProps) => {
-  const { data: firstData } = useGetFirstCatalogQuery();
-  const categories = (firstData as any)?.categories || [];
+const CategorySection2 = ({ categoryId, isExpanded, onToggle }: CategorySection2Props) => {
+  const { data: secondData } = useGetSecondCatalogQuery();
+  const categories = (secondData as any)?.categories || [];
   const category = categories.find((cat: any) => cat.id === categoryId);
 
   const getProductStatus = (balance: number) => {
@@ -61,4 +61,4 @@ const CategorySection = ({ categoryId, isExpanded, onToggle }: CategorySectionPr
   );
 };
 
-export default CategorySection;
+export default CategorySection2;

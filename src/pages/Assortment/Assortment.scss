@@ -1,3 +1,32 @@
 .assortment {
   padding: 40px 20px;
+  .tabs-container  {
+    .tabs-header {
+      padding: 10px 0px 30px;
+      // width: 200px;
+      display: flex;
+      gap: 40px;
+      button {
+        padding: 5px 10px;
+        width: 220px;
+        font-size: 24px;
+        border: 1px solid white;
+        cursor: pointer;
+        border-radius: 5px;
+        
+        &.active {
+          scale: 1.01;
+          background-color: rgb(202, 202, 202);
+          color: black;
+        }
+        
+        &:hover {
+          scale: 1.05;
+          background-color: white;
+          color: black;
+          transition: all 0.5s ease;
+        }
+      }
+    }
+  }
 }

@@ -7,3 +7,17 @@
 .main {
     flex: 1;
 }
+
+.loader-container {
+    height: 100vh; /* Высота всего viewport */
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-container .logo-container_logo_txt .logo {
+  width: 300px !important;
+  height: 300px !important;
+}
