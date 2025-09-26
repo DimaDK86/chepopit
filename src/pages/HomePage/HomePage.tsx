@@ -1,20 +1,42 @@
-import './HomePage.scss'
-import Header from "./homePageComponents/Header";
-import React from "react";
+import "./HomePage.scss";
 
 const HomePage = () => {
-    return (
-        <div style={{
-
-            display: 'flex',
-            justifyContent: "center",
-            padding: '40px 20px',
-            fontSize: '40px'
-
-        }}>
-            скоро на ваших голубых экранах
-        </div>
-    )
-}
+  return (
+    <div className="home-page">
+      <div className="home-page-title">
+        <h1>чЁ Попить?!</h1>
+        <h2>Решаем главный вопрос каждого вечера.</h2>
+      </div>
+      <p className="home-page-title-mini">
+        40 кранов свежести 
+      </p>
+      <p className="home-page-title-mini">
+         и более 500 сортов пива с собой.
+      </p>
+      <p className="home-page-title-mini">
+         Ответ очевиден...
+      </p>
+      <div className="home-page-text">
+        <p>
+          Устал от однообразного пива? Пришло время для настоящей вкусовой
+          революции! У нас не просто магазин, а эпицентр пивной культуры.
+        </p>
+        <p>
+          40 сортов на разлив: От хмельных американских IPA до бархатистых
+          имперских стаутов. Всегда свежее, всегда на точке кипения.
+        </p>
+        <p>
+          500+ сортов в бутылках и банках: Ищишь что-то особенное для дома или в
+          подарок? Наши стеллажи — это настоящая карта мира крафтового и
+          импортного пива.
+        </p>
+        <p>
+          Забудь про сомнения. Заходи, выбирай, открывай новое. Вопрос "чЁ
+          Попить?!" больше не стоит!
+        </p>
+      </div>
+    </div>
+  );
+};
 
 export default HomePage;

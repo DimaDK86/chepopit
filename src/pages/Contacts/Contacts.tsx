@@ -17,7 +17,6 @@ const Contacts = () => {
 
   const handleToggle = () => {
     setIsExpanded(!isExpanded);
-    console.log("adsvasdvavaav");
   };
 
   return (
@@ -120,7 +119,7 @@ const Contacts = () => {
       <div className="contacts-items">
         <h2>КОНТАКТЫ</h2>
         <p>по вопросам сотрудничества, открытых ваканчий и прочим,</p>
-        <p>будем рады Вам ответиль любым удоюным способом:</p>
+        <p>будем рады Вам ответить любым удобным способом:</p>
         <div className="contacts-item">
           <div>
             <a href={`tel:${phoneNumber}`} className="social-link">

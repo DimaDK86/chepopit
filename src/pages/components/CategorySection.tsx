@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef, useEffect} from 'react';
 import { useGetFirstCatalogQuery } from '../../api/catalogApi';
 import Arrow from '../../assets/arrow.png'
 import './CategorySection.scss'
@@ -6,10 +6,16 @@ import './CategorySection.scss'
 interface CategorySectionProps {
   categoryId: number;
   isExpanded: boolean;
+  isClosing: boolean;
   onToggle: () => void;
 }
 
-const CategorySection = ({ categoryId, isExpanded, onToggle }: CategorySectionProps) => {
+const CategorySection = ({
+  categoryId,
+  isExpanded,
+  onToggle,
+  isClosing,
+}: CategorySectionProps) => {
   const { data: firstData } = useGetFirstCatalogQuery();
   const categories = (firstData as any)?.categories || [];
   const category = categories.find((cat: any) => cat.id === categoryId);
@@ -22,24 +28,49 @@ const CategorySection = ({ categoryId, isExpanded, onToggle }: CategorySectionPr
     return { text: 'в наличии', color: '#00aa00' };
   };
   
+  // Ref для заголовка категории
+  const headerRef = useRef<HTMLDivElement>(null);
+
+  // Фокусируемся на заголовке при разворачивании
+  useEffect(() => {
+    if (isExpanded && headerRef.current) {
+      // Небольшая задержка для плавности анимации
+      setTimeout(() => {
+        headerRef.current?.focus();
+      }, 100);
+    }
+  }, [isExpanded]);
+
   if (!category) return <div>Категория с ID {categoryId} не найдена</div>;
-  
+
   return (
     <div className="category-section">
-      <div onClick={onToggle} style={{ cursor: 'pointer' }}>
+      <div 
+        ref={headerRef} // ✅ Добавьте ref сюда
+        tabIndex={0}    // ✅ Делаем элемент фокусируемым
+        onClick={onToggle} 
+        style={{ cursor: 'pointer', outline: 'none' }}
+        className="category-header"
+        aria-expanded={isExpanded}
+      >
         <h2 className='categoryItemName'>
           <span style={{ padding: "0 10px 0 0" }}>
             <img 
               src={Arrow} 
-              alt="Arrow" 
-              className={`category-arrow ${isExpanded ? 'expanded' : 'collapsed'}`}
+              alt={isExpanded ? "Свернуть категорию" : "Развернуть категорию"} 
+              className={`category-arrow ${
+                isExpanded ? "expanded" : "collapsed"
+              }`}
             />
           </span>
           {category.name} | Товаров: {category.product_count}
         </h2>
       </div>
       
-      <div className={`category-content ${isExpanded ? 'expanded' : 'collapsed'}`}>
+      <div 
+        className={`category-content ${isExpanded ? "expanded" : ""} ${isClosing ? "closing" : ""}`}
+        aria-hidden={!isExpanded}
+      >
         <div className="products-list">
           {category.products.map((product: any) => {
             const status = getProductStatus(product.balance);
